@@ -1,85 +1,99 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nRcUn8vA)
-# Template for Capstone
-이 레파지토리는 학생들이 캡스톤 프로젝트 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-1. 레파지토리 생성
-2. 레파지토리 구성
-3. 레파지토리 제출 
-4. README.md 가이드라인
-5. README.md 작성팁
+# meARy: AR 기술을 활용한 소셜 네트워킹 서비스
 
 ---
 
-## 1. 레파지토리 생성
-- [https://classroom.github.com/a/nRcUn8vA](https://classroom.github.com/a/nRcUn8vA)
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-
-<img width="700" alt="깃헙 클래스룸 레포 생성" src="https://github.com/user-attachments/assets/34ca1f43-c2cd-4880-a39e-0dafd889c35f" />
-
-- 레포지토리 생성 시 팀명은 `TEAM-{조 번호}` 형식으로 생성하세요.
-- 예를 들어, 2025년도 3조의 팀명은 `TEAM-03` 입니다.
-- 이 경우 `Capstone2025-team-03`이란 이름으로 레파지토리가 생성됩니다.
-
----
-
-## 2. 레파지토리 구성
-- 레파지토리 내에 README.md 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 README.md 파일을 작성하세요. (이 레파지토리의 SAMPLE_README.md 참조)
-- 레파지토리 내에 docs 디렉토리를 생성하고 docs 디렉토리 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다. (이 레파지토리의 docs 디렉토리 참조)
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 디렉토리를 나누어 구성하세요.
-
----
-
-## 3. 레파지토리 제출 
-
-- **`[주의]` 레파지토리 제출**은 해당 레파지토리의 ownership을 **학과 계정**으로 넘기는 것이므로 되돌릴 수 없습니다.
-- **레파지토리 제출** 전, 더 이상 수정 사항이 없는지 다시 한번 확인하세요.
-- github 레파지토리에서 Settings > General > Danger zone > Transfer 클릭
-  <img src="https://github.com/user-attachments/assets/cb2361d4-e07e-4b5d-9116-aa80dddd8a8b" alt="소유주 변경 경로" width="500" />
-  
-- [ Specify an organization or username ]에 'PNUCSE'를 입력하고 확인 메세지를 입력하세요.
-  <img src="https://github.com/user-attachments/assets/7c63955d-dcfe-4ac3-bdb6-7d2620575f3a" alt="소유주 변경" width="400" />
-
----
-
-## 4. README.md 가이드 라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 항목이외에 프로젝트의 이해를 돕기 위한 내용을 추가해도 됩니다.
-- SAMPLE_README.md 이 단순한 형태의 예제이니 참고하세요.
-
-```markdown
 ### 1. 프로젝트 배경
 #### 1.1. 국내외 시장 현황 및 문제점
-> 시장 조사 및 기존 문제점 서술
+21세기 정보통신 기술의 발전과 스마트폰의 보편화는 소셜 네트워킹 서비스(SNS)의 폭발적인 성장을 이끌었습니다.  
+페이스북, 인스타그램 등은 핵심적인 소통 채널로 자리 잡았으나, 여전히 텍스트, 사진, 동영상 등 2차원 미디어 중심으로만 제공되어 사용자의 경험을 제한합니다.  
 
 #### 1.2. 필요성과 기대효과
-> 왜 이 프로젝트가 필요한지, 기대되는 효과 등
+본 프로젝트는 이러한 한계를 넘어, 기존 SNS 경험을 3차원 공간으로 확장하여 새로운 소셜 네트워킹 경험을 제공합니다.  
+- 사진 한 장으로 사용자의 3D 모델 생성 및 AR 배치 가능
+- 기록을 단순히 보는 것이 아니라, 직접 방문·상호작용하며 공유 가능 
+- 몰입감과 유대감 증진, 새로운 추억 공유 방식 제시  
+
+---
 
 ### 2. 개발 목표
 #### 2.1. 목표 및 세부 내용
-> 전체적인 개발 목표, 주요 기능 및 기획 내용
+최종 목표:  
+사용자가 생성한 영상 콘텐츠를 기반으로 사용자를 닮은 3D Model을 생성하고,  
+이를 AR 환경에 재현하여 몰입적 상호작용이 가능한 소셜 네트워킹 서비스를 개발하는 것.  
 
-#### 2.2. 기존 서비스 대비 차별성 
-> 유사 서비스 비교 및 차별점 부각
+주요 기능:  
+- **AR 포스팅 업로드**: 사진 촬영 → 인물 인식 → 좌표 추출 → 3D 모델 포즈 리타겟팅 → 서버 저장  
+- **AR 포스팅 조회**: 특정 위치 방문 → Flask 서버 요청 → 3D 모델 로드 및 AR Anchor 배치  
 
-#### 2.3. 사회적 가치 도입 계획 
-> 프로젝트의 공공성, 지속 가능성, 환경 보호 등
+#### 2.2. 기존 서비스 대비 차별성
+- 기존 서비스: 2D 기반 콘텐츠 소비  
+- 본 프로젝트:  
+  - 사진 한 장으로 개인화된 3D 모델 생성  
+  - 포즈 리타겟팅 및 지리적 좌표 기반 배치 
+
+#### 2.3. 사회적 가치 도입 계획
+- 디지털 기록을 물리적 공간에 남기는 새로운 소통 패러다임
+- 장소에 의미를 부여하고, 사용자 간 유대감 증진  
+- 디지털 상호작용을 현실로 확장 → 지속 가능한 소셜 경험 창출  
+
+---
+
 ### 3. 시스템 설계
 #### 3.1. 시스템 구성도
-> 이미지 혹은 텍스트로 시스템 아키텍쳐 작성
->
+- **클라이언트 (Unity + ARCore)**: AR 포스팅 업로드 및 조회  
+- **백엔드 (Flask 서버, Ubuntu)**: API 처리 및 DB 관리  
+- **3D 파이프라인 (Blender)**: 포즈 리타겟팅 처리  
+- **데이터베이스 및 스토리지**: SQLite, 로컬 저장소(GLB)  
+- **외부 API**: Google ARCore Geospatial API  
+
 #### 3.2. 사용 기술
-> 프론트엔드, 백엔드, API 등 구체 기술 스택
+- **클라이언트**: Unity, AR Foundation, ARCore Extensions, MediaPipe Unity Plugin (C#)  
+- **백엔드**: Flask, SQLite, ngrok  
+- **3D 모델링**: tripo3D, Adobe Mixamo, Blender, MediaPipe BlazePose  
+
+---
 
 ### 4. 개발 결과
 #### 4.1. 전체 시스템 흐름도
-> 기능 흐름 설명 및 도식화 가능
->
+- **AR 포스팅 업로드**  
+  1. 사진 촬영 및 인물 감지  
+  2. 좌표 추출 (ARCore → 지구 좌표 변환)  
+  3. 서버 전송 → 포즈 추출 및 3D 모델 리타겟팅  
+  4. 결과물(GLB) 저장  
+
+- **AR 포스팅 조회**  
+  1. 사용자 위치 확인 (ARCore Geospatial API)  
+  2. 서버에서 가까운 포스팅 응답 (GLB, 좌표)  
+  3. AR Anchor 위에 모델 배치  
+
 #### 4.2. 기능 설명 및 주요 기능 명세서
-> 주요 기능에 대한 상세 설명, 각 기능의 입력/출력 및 설명
->
+- **Human Detection (Unity, MediaPipe Plugin)**: 사진 속 인물 감지  
+- **Pose Retargeting (Blender)**: 33개 포즈 랜드마크 → 모델 스켈레톤 정렬  
+- **AR 모델 배치 보정**: GPS 고도 오차를 AR Plane Detection 기반으로 보정  
+
 #### 4.3. 디렉토리 구조
->
+meARy/
+├── backend/
+│ ├── app.py # Flask 서버
+│ ├── requirements.txt
+│ ├── retargeting/ # Blender 파이프라인 스크립트
+│ │ └── main.py
+│ ├── database/
+│ │ └── meary.db
+│ └── storage/
+│ └── models/
+├── unity_project/
+│ ├── Assets/
+│ │ ├── Scripts/
+│ │ ├── Prefabs/
+│ │ └── Plugins/
+│ └── ...
+└── README.md
+
 #### 4.4. 산업체 멘토링 의견 및 반영 사항
 > 멘토 피드백과 적용한 사례 정리
+
+---
 
 ### 5. 설치 및 실행 방법
 >
@@ -101,137 +115,3 @@
 > 개별적으로 느낀 점, 협업, 기술적 어려움 극복 사례 등
 
 ### 8. 참고 문헌 및 출처
-
-```
-
-## 5. README.md 작성팁 
-* 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
-* 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
-
-### 5.1. 헤더 Header
-```
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-```
-<br />
-
-### 5.2. 인용문 BlockQuote
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-<br />
-
-### 5.3. 목록 List
-* **Ordered List**
-```
-1. first
-2. second
-3. third  
-```
-1. first
-2. second
-3. third
-<br />
-
-* **Unordered List**
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-<br />
-
-### 5.4. 코드 CodeBlock
-* 코드 블럭 이용 '``'
-```
-여러줄 주석 "```" 이용
-"```
-#include <stdio.h>
-int main(void){
-  printf("Hello world!");
-  return 0;
-}
-```"
-
-단어 주석 "`" 이용
-"`Hello world`"
-
-* 큰 따움표(") 없이 사용하세요.
-``` 
-<br />
-
-### 5.5. 링크 Link
-```
-[Title](link)
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
-
-<link>
-<https://cse.pusan.ac.kr/cse/index..do>
-``` 
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
-
-<https://cse.pusan.ac.kr/cse/index..do>
-<br />
-
-### 5.6. 강조 Highlighting
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks* <br />
-_single underscores_ <br />
-**double asterisks** <br />
-__double underscores__ <br />
-~~cancelline~~  <br />
-<br />
-
-### 5.7. 이미지 Image
-```
-<img src="image URL" width="600px" title="Title" alt="Alt text"></img>
-![Alt text](image URL "Optional title")
-```
-- 웹에서 작성한다면 README.md 내용 안으로 이미지를 드래그 앤 드롭하면 이미지가 생성됩니다.
-- 웹이 아닌 로컬에서 작성한다면, github issue에 이미지를 드래그 앤 드롭하여 image url 을 얻을 수 있습니다. (URL만 복사하고 issue는 제출 안 함.)
-  <img src="https://github.com/user-attachments/assets/0fe3bff1-7a2b-4df3-b230-cac4ef5f6d0b" alt="이슈에 image 올림" width="600" />
-  <img src="https://github.com/user-attachments/assets/251c6d42-b36b-4ad4-9cfa-fa2cc67a9a50" alt="image url 복사" width="600" />
-
-
-### 5.8. 유튜브 영상 추가
-```markdown
-[![영상 이름](유튜브 영상 썸네일 URL)](유튜브 영상 URL)
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-```
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-
-- 이때 유튜브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있습니다.
-
-- `Youtube URL`: https://www.youtube.com/watch?v={동영상 ID}
-- `Youtube Thumbnail URL`: http://img.youtube.com/vi/{동영상 ID}/0.jpg 
-- 예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면 썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
-
