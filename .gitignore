@@ -21,3 +21,24 @@ __pycache__/
 *.jpg
 *.glb
 *.fbx
+
+# Unity AUTO-GENERATED FILES #
+/unity/[Ll]ibrary/
+/unity/[Tt]emp/
+/unity/[Oo]bj/
+/unity/[Bb]uild/
+/unity/[Bb]uilds/
+/unity/[Ll]ogs/
+/unity/Packages/com.github.homuler.mediapipe/
+/unity/Packages/com.google.ar.core.arfoundation.extensions/
+# Visual Studio / Rider / VS Code files
+/unity/*.csproj
+/unity/*.sln
+/unity/*.suo
+/unity/*.user
+/unity/*.userprefs
+/unity/.vs/
+/unity/.vscode/
+/unity/omnisharp.json
+/unity/*.md
+/unity/.vsconfig

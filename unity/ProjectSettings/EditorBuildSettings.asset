@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/meARy/meARy.unity
+    guid: bec66c4504c2b1e48a0ea53896102228
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8c8614c9d494e1c4e86f14f6f1afb353,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: f191f1a27a6dc0145a1dc6e69d3830d6,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c684e63578d96b14eb97380e688a79f7,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d867e5abd89928d42aa5eb2593670860,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
