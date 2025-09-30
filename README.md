@@ -46,6 +46,9 @@
 - **데이터베이스 및 스토리지**: SQLite, 로컬 저장소(GLB)  
 - **외부 API**: Google ARCore Geospatial API  
 
+<img width="1532" height="964" alt="arc drawio (1)" src="https://github.com/user-attachments/assets/1a84e083-c688-45d9-9956-900561679644" />
+
+
 #### 3.2. 사용 기술
 - **클라이언트**: Unity, AR Foundation, ARCore Extensions, MediaPipe Unity Plugin (C#)  
 - **백엔드**: Flask, SQLite, ngrok  
