@@ -104,14 +104,40 @@ meARy/
 
 ### 6. 소개 자료 및 시연 영상
 #### 6.1. 프로젝트 소개 자료
-> PPT 등
+- 프로젝트 최종 보고서 (PDF)
+- 발표 자료 (PPT)
+
 #### 6.2. 시연 영상
-> 영상 링크 또는 주요 장면 설명
+- [시연 영상 링크](https://www.youtube.com/watch?v=6Jr0kbTqL4k)
+- 주요 장면: 사진 촬영 화면, 모델 배치 화면
+
+---
 
 ### 7. 팀 구성
 #### 7.1. 팀원별 소개 및 역할 분담
->
+| 이름   | 역할 |
+|--------|-------------------------------|
+| 김진영 | Unity AR Foundation, Google ARCore Extensions 기반 AR 기능 및 안드로이드 앱 개발 |
+| 임석윤 | Unity AR Foundation, Google ARCore Extensions 기반 AR 기능 개발, 백엔드 개발 |
+| 허취원 | 3D 모델 생성 및 Blender 기반 Pose Retargeting Pipeline 개발 |
+
 #### 7.2. 팀원 별 참여 후기
-> 개별적으로 느낀 점, 협업, 기술적 어려움 극복 사례 등
+- 김진영: *(작성 예정)*
+- 임석윤: *(작성 예정)*
+- 허취원: *(작성 예정)*
+
+---
 
 ### 8. 참고 문헌 및 출처
+1. V. Bazarevsky, I. Grishchenko, K. Raveendran, T. Zhu, F. Zhang, and M. Grundmann,  
+   *BlazePose: On-device Real-time Body Pose Tracking,* arXiv preprint arXiv:2006.10204, Jun. 2020.  
+
+2. Google Research. (2020, Aug 13). *On-Device, Real-time Body Tracking with MediaPipe BlazePose.*  
+   [https://research.google/blog/on-device-real-time-body-pose-tracking-with-mediapipe-blazepose](https://research.google/blog/on-device-real-time-body-pose-tracking-with-mediapipe-blazepose)  
+
+3. Unity Technologies. *AR Foundation Manual*  
+   [https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)  
+
+4. Google ARCore. *ARCore Extensions for AR Foundation*  
+   [https://developers.google.com/ar/develop](https://developers.google.com/ar/develop)  
+
